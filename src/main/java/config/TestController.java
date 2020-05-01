@@ -1,6 +1,7 @@
 package config;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -10,4 +11,9 @@ public class TestController {
   public String get(){
       return "Hello";
   }
+
+    @GetMapping("/api/v1")
+    public String getPerm(String name){
+        return "Hello "+name;
+    }
 }

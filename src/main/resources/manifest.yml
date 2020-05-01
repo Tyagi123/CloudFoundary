@@ -1,0 +1,7 @@
+applications:
+  - name: CloudFoundary
+    host: api.run.pivotal.io
+    memory: 100M
+    buildpack: java_buildpack
+    domain: api.run.pivotal.io
+    path: ./CloudFoundry-0.0.1-SNAPSHOT.jar
