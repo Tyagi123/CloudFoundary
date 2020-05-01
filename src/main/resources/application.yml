@@ -1,0 +1,8 @@
+Spring:
+       application:
+           name:CloudFoundry
+
+logging:
+  level:
+    org.springframework: ERROR
+    com.mkyong: DEBUG
